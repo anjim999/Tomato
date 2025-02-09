@@ -90,7 +90,7 @@ const PlaceOrder = () => {
        <div>
         <div className="cart-total-details">
           <p>Subtotal</p>
-          <p>₹{getTotalCartAmount()+ Object.keys(cartItems).length * 50}</p>
+          <p>₹{getTotalCartAmount()}</p>
         </div>
         <hr/>
         <div className="cart-total-details">
@@ -100,7 +100,7 @@ const PlaceOrder = () => {
         <hr />
         <div className="cart-total-details">
           <b>Total</b>
-        <b>₹{getTotalCartAmount() === 0 ? 0 : getTotalCartAmount() + 50 + Object.keys(cartItems).length * 50}</b>
+        <b>₹{getTotalCartAmount() === 0 ? 0 : getTotalCartAmount() + 50 }</b>
         </div>
        </div>
        <button type="submit" className='cart-total-button'>PROCEED TO PAYMENT</button>
