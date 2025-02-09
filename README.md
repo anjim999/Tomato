@@ -90,7 +90,7 @@ The app will now be accessible at `http://localhost:5173`.
 - `PUT /api/orders/:id/status` - Update order status (Admin only)
 
 ### Published URL 
--`Frontend:` https://food-del-frontend2-u8pw.onrender.com/
+- `Frontend:` https://food-del-frontend2-u8pw.onrender.com/
 
 
 
