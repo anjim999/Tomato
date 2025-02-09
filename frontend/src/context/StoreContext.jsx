@@ -10,6 +10,10 @@ const StoreContextProvider = (props) => {
   const [food_list,setFoodList]=useState([])
 
   const addToCart =async  (itemId) => {
+    if(!token)
+    {
+      return alert("Please Login");
+    }
     setCartItems((prev) => ({
       ...prev,
       [itemId]: (prev[itemId] || 0) + 1,
