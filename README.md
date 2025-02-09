@@ -17,7 +17,6 @@ With Eternal, users can browse food items, add them to their cart, place orders,
 ## Tech Stack
 ### Frontend
 - **React.js** (with Vite for fast builds)
-- **Tailwind CSS** (for styling)
 - **React Router** (for navigation)
 - **React Toastify** (for notifications)
 
