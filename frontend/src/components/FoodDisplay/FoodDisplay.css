@@ -1,0 +1,89 @@
+.food-display {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.food-display h2 {
+    font-size: max(2vw, 24px);
+    font-weight: 600;
+    color: #333;
+}
+
+.food-display-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    margin-top: 30px;
+    gap: 30px;
+    row-gap: 50px;
+}
+
+/* Updated Search Container */
+.display-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.search-container {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    width: 100%;
+    padding: 12px 40px 12px 15px; /* Left padding for text, right for icon */
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Search Icon Inside Input */
+.search-container img {
+    position: absolute;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.notfound-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+}
+
+.not-found {
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .display-top {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .search-container {
+        max-width: 100%;
+    }
+}
