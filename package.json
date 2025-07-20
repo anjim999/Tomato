@@ -1,0 +1,21 @@
+{
+  "name": "fooddeliverywebsite",
+  "version": "1.0.0",
+  "description": "Eternal is a full-stack food ordering web application similar to Zomato and Swiggy. This project is built using the **MERN stack** (MongoDB, Express.js, React.js, and Node.js) along with **Vite** for a fast and optimized development experience.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ALLUVENKATAREDDY/foodDeliveryWebsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ALLUVENKATAREDDY/foodDeliveryWebsite/issues"
+  },
+  "homepage": "https://github.com/ALLUVENKATAREDDY/foodDeliveryWebsite#readme"
+}
